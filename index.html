@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title></title>
+    <link rel="stylesheet/less" href="css/index.less"/>
+    <script src="js/less.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
+
+    <!--[if lt IE 9]>
+    <script src="./js/html5shiv.js"></script>
+    <script src="./js/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+        .swipe {
+            overflow: hidden;
+            visibility: hidden;
+            position: relative;
+        }
+
+        .swipe-wrap {
+            overflow: hidden;
+            position: relative;
+        }
+
+        .swipe-wrap > li {
+            float:left;
+            width:100%;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+<div class="viewport index-page">
+    <!--隐藏侧边栏-->
+    <div class="aside"></div>
+    <div class="container">
+        <!--手机模式下图标-->
+        <div class="menu">
+            <a href="javascript:;" class="icon">导航</a>
+            <a href="javascript:;" class="center">个人中心</a>
+        </div>
+        <!--顶部导航-->
+        <div class="topbar">
+            <ul>
+                <li class="qrcode">手机微金所</li>
+                <li class="service">4006-89-4006（服务时间：9:00~21:00</li>
+                <li class="help">
+                    <a href="javascript:;">常见问题</a>
+                    <a href="javascript:;">财富登录</a>
+                </li>
+                <li class="extra">
+                    <a href="javascript:;" class="signup">免费注册</a>
+                    <a href="javascript:;">登录</a>
+                </li>
+            </ul>
+        </div>
+
+        <!--主导航-->
+        <div class="navs">
+            <ul>
+                <li class="logo">
+                    <a href="javascript:;">
+                        <img src="images/logo.png" alt=""/>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">我要投资</a>
+                </li>
+                <li>
+                    <a href="javascript:;">我要借款</a>
+                </li>
+                <li>
+                    <a href="javascript:;">平台介绍</a>
+                </li>
+                <li>
+                    <a href="javascript:;">新手专区</a>
+                </li>
+                <li>
+                    <a href="javascript:;">最新动态</a>
+                </li>
+                <li>
+                    <a href="javascript:;">微论坛</a>
+                </li>
+                <li class="center">
+                    <a href="javascript:;">个人中心</a>
+                </li>
+            </ul>
+        </div>
+
+        <!--轮播图-->
+        <div class="view swipe">
+            <ul class="swipe-wrap">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+
+        <!--专长-->
+        <div class="specialty">
+            <div class="specialty-box">
+                <dl>
+                    <dt>投资门槛低，收益高</dt>
+                    <dd><span>●</span>100元起投</dd>
+                    <dd><span>●</span>最高年化收益率可达15%</dd>
+                </dl>
+                <dl>
+                    <dt>投资期限, 方式灵活</dt>
+                    <dd><span>●</span>1~36个月多种期限随心选择</dd>
+                    <dd><span>●</span>按月付息、等额本息、利随本清等多种还款方式</dd>
+                </dl>
+                <dl>
+                    <dt>安全保障, 风险可控</dt>
+                    <dd><span>●</span>八层安全保障机制</dd>
+                    <dd><span>●</span>风险拨备金</dd>
+                    <dd><span>●</span>银联支付对接</dd>
+                </dl>
+            </div>
+        </div>
+
+        <!--公告-->
+        <div class="notify">
+            <div class="notify-wrap">
+                <p>新标预告：金房宝-房抵项目四十八期，90万，3个月， 10.2%+1%， 月付息到期还本， 四星 距上线：<span>3</span>分</p>
+                <p>现在有<span>395</span>人在排队，累计预约交易成功<span>6918</span>次。 <a>什么是预约投标？</a><span>立即预约</span></p>
+                <a href="javascript:;" class="help">
+                    <img src="images/help-mv.png" alt=""/>
+                </a>
+            </div>
+        </div>
+
+        <!--借贷-->
+        <div class="loan">
+            <div class="loan-wrap">
+                <!--tab栏-->
+                <div class="tabs">
+                    <ul>
+                        <li><a href="javascript:;">特别推荐</a></li>
+                        <li><a href="javascript:;">微融资</a></li>
+                        <li><a href="javascript:;">微小宝</a></li>
+                        <li><a href="javascript:;">微消费</a></li>
+                        <li><a href="javascript:;">微增利</a></li>
+                        <li><a href="javascript:;">微金宝</a></li>
+                        <li><a href="javascript:;">微转让</a></li>
+                    </ul>
+                </div>
+                <!--信息-->
+                <div class="info">
+                    是由信贷机构保障的企业借款需求
+                </div>
+                <!--概况-->
+                <div class="items">
+                    <div class="item">
+                        <p class="title">微收益-本事宝八期</p>
+                        <p class="cont">
+                            <span class="l">筹集金额(元)</span>
+                            <span class="r">信用等级</span>
+                        </p>
+                        <p class="month">
+                            <span class="l">70万</span>
+                            <span class="r">9个月</span>
+                        </p>
+                        <p class="cont">
+                            <span class="l">借款期限</span>
+                            <span class="r">投资进度0%</span>
+                        </p>
+                        <p class="month">9个月</p>
+
+                        <div class="extra one">
+                            <h4>10.5%</h4>
+                            <h6>年利率</h6>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <p class="title">微收益-本事宝八期</p>
+                        <p class="cont">
+                            <span class="l">筹集金额(元)</span>
+                            <span class="r">信用等级</span>
+                        </p>
+                        <p class="month">
+                            <span class="l">70万</span>
+                            <span class="r">9个月</span>
+                        </p>
+                        <p class="cont">
+                            <span class="l">借款期限</span>
+                            <span class="r">投资进度0%</span>
+                        </p>
+                        <p class="month">9个月</p>
+                        <div class="extra">
+                            <span class="e">鄂</span>
+                            <span class="b">保</span>
+                            <h4>10.5%</h4>
+                            <h5>+1%</h5>
+                            <h6>年利率</h6>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <p class="title">微收益-本事宝八期</p>
+                        <p class="cont">
+                            <span class="l">筹集金额(元)</span>
+                            <span class="r">信用等级</span>
+                        </p>
+                        <p class="month">
+                            <span class="l">70万</span>
+                            <span class="r">9个月</span>
+                        </p>
+                        <p class="cont">
+                            <span class="l">借款期限</span>
+                            <span class="r">投资进度0%</span>
+                        </p>
+                        <p class="month">9个月</p>
+                        <div class="extra">
+                            <span class="e">鄂</span>
+                            <span class="b">保</span>
+                            <h4>10.5%</h4>
+                            <h5>+1%</h5>
+                            <h6>年利率</h6>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <p class="title">微收益-本事宝八期</p>
+                        <p class="cont">
+                            <span class="l">筹集金额(元)</span>
+                            <span class="r">信用等级</span>
+                        </p>
+                        <p class="month">
+                            <span class="l">70万</span>
+                            <span class="r">9个月</span>
+                        </p>
+                        <p class="cont">
+                            <span class="l">借款期限</span>
+                            <span class="r">投资进度0%</span>
+                        </p>
+                        <p class="month">9个月</p>
+                        <div class="extra">
+                            <span class="e">鄂</span>
+                            <span class="b">保</span>
+                            <h4>10.5%</h4>
+                            <h5>+1%</h5>
+                            <h6>年利率</h6>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <p class="title">微收益-本事宝八期</p>
+                        <p class="cont">
+                            <span class="l">筹集金额(元)</span>
+                            <span class="r">信用等级</span>
+                        </p>
+                        <p class="month">
+                            <span class="l">70万</span>
+                            <span class="r">9个月</span>
+                        </p>
+                        <p class="cont">
+                            <span class="l">借款期限</span>
+                            <span class="r">投资进度0%</span>
+                        </p>
+                        <p class="month">9个月</p>
+                        <div class="extra two">
+                            <span class="e">鄂</span>
+                            <span class="b">保</span>
+                            <h4>10.5%</h4>
+                            <h6>年利率</h6>
+                        </div>
+                    </div>
+                    <div class="blank"></div>
+                    <div class="blank"></div>
+                </div>
+            </div>
+        </div>
+
+        <!--新闻-->
+        <div class="news">
+            <div class="title">
+                <h4>全部新闻</h4>
+            </div>
+            <div class="types">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="list">
+                <ul>
+                    <li>
+                        <a href="javascript:;">【微还款】2015年10月29日共19个项目按时完成全部还款</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">【微还款】2015年10月29日共19个项目按时完成全部还款</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">【微还款】2015年10月29日共19个项目按时完成全部还款</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">【微还款】2015年10月29日共19个项目按时完成全部还款</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">【微还款】2015年10月29日共19个项目按时完成全部还款</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">【微还款】2015年10月29日共19个项目按时完成全部还款</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">【微还款】2015年10月29日共19个项目按时完成全部还款</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+<script src="js/swipe.js"></script>
+<script>
+    var swipe = new Swipe(document.querySelector('.view'),{
+        auto:2000
+    });
+    var menu = document.querySelector('.menu .icon');
+
+    var container = document.querySelector('.container');
+
+    var aside = document.querySelector('.aside');
+
+    menu.onclick = function () {
+        container.classList.toggle('pull-right');
+        aside.classList.toggle('pull-right');
+    }
+</script>
+</body>
+</html>
